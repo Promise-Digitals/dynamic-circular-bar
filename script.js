@@ -14,7 +14,7 @@ function count(){
         let progress = setInterval(() =>{
             progressValue++;
             valueContainer.textContent = `${progressValue}%`;
-            progressBar.style.background = `conic-gradient(#ff004f ${progressValue* 3.6}deg, #555 ${progressValue * 3.6}deg)`;
+            progressBar.style.background = `conic-gradient(#4f76f6 ${progressValue* 3.6}deg, #555 ${progressValue * 3.6}deg)`;
             if (progressValue == progressEndValue){
                 clearInterval(progress);
             }
